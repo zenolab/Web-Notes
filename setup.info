@@ -1,0 +1,27 @@
+
+
+   
+pipenv shell 
+
+# if run firstly
+pipenv sync    
+
+//Enviroment for Unix-Linux input to CLI
+ export ENV_FILE_LOCATION=./.env
+
+
+python run.py
+
+post  with bearer token
+http://127.0.0.1:5000/api/movies
+
+http://127.0.0.1:3500/api/movies
+
+JSON
+
+{
+    "name": "The Dark KnightNNN",
+    "casts": ["Christian BaleNNN", "Heath LedgerNNN"],
+    "genres": ["ActionNNN"]
+  }
+
